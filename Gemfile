@@ -4,7 +4,9 @@ ruby '2.0.0'
 
 gem 'rails', '~> 4.0'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'rake', '0.8.7'
+gem 'bcrypt-ruby', '3.0.1'
+
+gem 'rake', '0.9.6'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
